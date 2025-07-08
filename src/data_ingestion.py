@@ -9,4 +9,3 @@ df.drop(columns=['Length of Membership'],inplace=True)
 df.iloc[:,3:]
 
 df.to_csv(os.path.join('data','customer.csv'))
-
